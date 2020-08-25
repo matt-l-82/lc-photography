@@ -1,0 +1,94 @@
+/*----------------------------------------
+ICON STYLES
+-----------------------------------------*/
+.fa-mobile-alt, 
+.fa-map,
+.fa-paper-plane {
+    margin-right: 1rem;
+}
+
+/*----------------------------------------
+MOBILE NAV COLOR CHANGE
+-----------------------------------------*/
+.extra-nav > ul > li > a > .menu-item-span {
+    color: #333;
+}
+
+
+.main-heading {
+    font-family: 'Lemonada', cursive;
+    text-decoration: underline;
+}
+
+.header.header-transparent {
+    border-bottom: none;
+}
+
+.header.header-transparent .extra-nav > ul > li:first-child {
+    border: none;
+}
+
+.navbar-brand {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+.pricing-wrapper {
+    padding: 0 50px 50px 50px;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+
+/* --------------------------------
+DIRECTIONS PAGE
+----------------------------------*/
+
+.directions-title {
+    font-weight: 700;
+    border-bottom: 3px solid black;
+    font-size: 7rem;
+}
+
+/*----------------------------------------
+CONTACT PAGE
+-----------------------------------------*/
+.getInTouch {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+/* --------------------------------
+FOOTER
+----------------------------------*/
+.widget-recent-works > .company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-recent-works > ul > li { 
+     padding: 0;
+     margin: 0 0 10px 0;
+} 
+
+footer a {
+    color: #788487 !important;
+}
+
+footer a:hover {
+    color: #fff !important;
+}
